@@ -1,0 +1,96 @@
+﻿/* Title styling */
+/* body {
+    background-color: #F9F9F9;
+} */
+
+.header {
+    text-align:center;
+    font-family:Arial;
+    font-size:30px;
+}
+
+/* Used for all main text bodies */
+.maintext {
+    border:5px solid black;
+    padding:20px;
+    width:auto;
+    position:static;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+/* Image styling */
+.imgbox {
+    display:grid;
+    height:100%;
+    border:5px solid black;
+    margin-top:-5px;
+}
+.centerfit {
+    max-width:100%;
+    max-height:100vh;
+    margin:auto;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Buttons on animation page */
+#btn {
+    position: absolute;
+    left: 723px;
+    top: 400px;
+    border: none;
+    color: gray;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#btn2 {
+    position: absolute;
+    left: 610px;
+    top: 400px;
+    border: none;
+    color: gray;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Darkmode */
+#checkbox {
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+    font-size: 20px;
+    color: white;
+}
+
+/* ??? */
+.button {
+    width: 85px;
+    height: 25px;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 25px;
+    float: right;
+    cursor: pointer;
+}

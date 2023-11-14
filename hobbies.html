@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <title>Hobbies</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- CSS styling for table -->
+    <style>
+        th {
+            border:5px solid black;
+            border-collapse:collapse;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation bar with links -->
+    <div class="topnav">
+        <!-- Links to other pages -->
+        <a href="./main.html">Home</a>
+        <a href="./video.html">Video</a>
+        <a class="active" href="./hobbies.html">Hobbies</a>
+        <a href="./coursework.html">Coursework</a>
+        <a href="./animation.html">Animation</a>
+        <!-- Darkmode -->
+        <div id="checkbox">
+            <input type="checkbox" id="check" onclick="changeStatus()">Darkmode</input>
+        </div>
+    </div>
+
+    <!-- Title -->
+    <div class="header">
+        <h1>My hobbies</h1>
+    </div>
+    <p class="p1">Hover over image to play video</p>
+
+    <!-- Table with hobby info -->
+    <table>
+        <tr>
+            <th class="header">Skiing</th>
+            <th class="header">The gym</th>
+        </tr>
+        <tr>
+            <th>
+                <video muted class="centerfit" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                    <source src="videos/ski.mp4" type=video/mp4></source>
+                </video>
+            </th>
+            <th>    
+                <video muted class="centerfit" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                <source src="videos/gym.mp4" type="video/mp4"></source>
+                </video>
+            </th>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th class="header">Coding</th>
+            <th class="header">Going out with friends</th>
+        </tr>
+        <tr>
+            <th>
+                <video muted class="centerfit" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                    <source src="videos/coding.mp4" type="video/mp4"></source>
+                </video>
+            </th>
+            <th>
+                <video muted class="centerfit" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                    <source src="videos/drinking.mp4" type="video/mp4"></source>
+                </video>
+            </th>
+        </tr>
+    </table>
+
+    <!-- Link to sources page -->
+    <a href="sources.html">Sources</a>
+
+    <!-- Components for dark mode -->
+    <p1></p1>
+    <h2></h2>
+
+</body>
+<script src="javascript/darkmode.js"></script>
+</html>

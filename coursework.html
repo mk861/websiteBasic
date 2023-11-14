@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Coursework</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- CSS styling for table -->
+    <style>
+        th {
+            border:5px solid black;
+            border-collapse:collapse;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation bar with links -->
+    <div class="topnav">
+        <!-- Links to other pages -->
+        <a href="./main.html">Home</a>
+        <a href="./video.html">Video</a>
+        <a href="./hobbies.html">Hobbies</a>
+        <a class="active" href="./coursework.html">Coursework</a>
+        <a href="./animation.html">Animation</a>
+        <!-- Darkmode -->
+        <div id="checkbox">
+            <input type="checkbox" id="check" onclick="changeStatus()">Darkmode</input>
+        </div>
+    </div>
+
+    <!-- Title -->
+    <div class="header">
+        <h1>My coursework</h1>
+    </div>
+        
+    <!-- Main text body -->
+    <div class="maintext">
+        <p1>
+            Here you can explore my previous works and projects. <br>
+            (Click on an image to be taken to a full webpage)
+        </p1>
+    </div>
+
+    <!-- Coursework with links in images -->
+    <table>
+        <tr>
+            <th>
+                <a href="lab2c.html" target="_blank">
+                        <img class="centerfit" src="images/lab2c.JPG" alt="Lab 2C">
+                </a>
+            </th>
+            <th>
+                <a href="lab3.html" target="_blank">    
+                    <img class="centerfit" src="images/lab3.jpeg" alt="Lab 3">
+                </a>
+            </th>
+        </tr>
+    </table>
+
+    <!-- Link to sources page -->
+    <a href="sources.html">Sources</a>
+
+    <!-- Components for dark mode -->
+    <h2></h2>
+    <p></p>
+
+</body>
+<script src="javascript/darkmode.js"></script>
+</html>
